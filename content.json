@@ -1,0 +1,510 @@
+[
+ {
+  "slug": "3d-druck-textil",
+  "label": "Übersicht",
+  "title": "3D-Druck auf Textil",
+  "sections": [
+   {
+    "id": "kopf",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>3D-Druck auf Textil</h1><p class=\"lead\">Fachbereich <a href=\"https://sites.google.com/view/design-und-technik/home\" rel=\"noopener noreferrer\" target=\"_blank\">Design &amp; Technik</a></p><p>Beim 3D-Druck auf Textil wird ein dünner Stoff mitten im Druck eingelegt. Der Drucker legt die ersten Schichten auf die Druckplatte, hält an, und nach dem Einlegen des Stoffs druckt er weiter. Der Kunststoff dringt durch die Maschen und verbindet sich fest mit dem Gewebe. So entstehen biegsame, faltbare oder gewölbte Flächen, die mit keinem anderen Verfahren so einfach gelingen.</p><p>Grundlagen zum Drucker stehen auf der Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html\" rel=\"noopener noreferrer\" target=\"_blank\">3D-Druck</a>. Diese Seite beschreibt nur, was beim Drucken auf Textil dazukommt.</p><figure class=\"schritt\"><img src=\"/assets/dreiecke-tuell.jpg\" alt=\"Schwarze gedruckte Dreiecke auf weissem Tüll, die Fläche wölbt und faltet sich zwischen den Dreiecken\" width=\"1000\" height=\"754\" loading=\"lazy\"><figcaption>Dreiecke auf Tüll: zwischen den Kacheln bleibt der Stoff beweglich. Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vorgehen",
+    "accordion": false,
+    "title": "Vorgehen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Vorgehen</h2><ol><li><a href=\"/modell\">Modell</a>: flache Form von etwa 1 mm Höhe zeichnen oder ein Muster herunterladen.</li><li><a href=\"/slicen\">Slicen</a>: Pause nach den ersten Schichten einfügen, G-Code auf den USB-Stick speichern.</li><li><a href=\"/drucken\">Drucken</a>: Druck starten, bei der Pause den Stoff auflegen und mit Magneten sichern, weiterdrucken.</li><li><a href=\"/drucken#entnehmen\">Entnehmen</a>: Stoff mit dem Druck vorsichtig von der Platte lösen.</li></ol><p>Anregungen: <a href=\"/ideen\">Ideensammlung</a>.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ablauf",
+    "accordion": false,
+    "title": "Vom Modell zum bedruckten Stoff",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Vom Modell zum bedruckten Stoff</h2><div class=\"diagram\" tabindex=\"0\" role=\"region\" aria-label=\"Ablaufgrafik, bei Bedarf seitlich verschiebbar\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 816 150\" role=\"img\" aria-labelledby=\"ab-t ab-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"ab-t\">Vom Modell zum bedruckten Stoff</title><desc id=\"ab-d\">Schritt 1 flaches Modell erstellen. Schritt 2 slicen und eine Pause nach den ersten Schichten einfügen. Schritt 3 drucken bis zur Pause. Schritt 4 Stoff auflegen und mit Magneten sichern. Schritt 5 weiterdrucken. Schritt 6 entnehmen.</desc><defs><marker id=\"ab-p\" viewBox=\"0 0 10 10\" refX=\"0\" refY=\"5\" markerWidth=\"10\" markerHeight=\"10\" markerUnits=\"userSpaceOnUse\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#087d84\"/></marker></defs><rect x=\"4\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"63.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"63.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><text x=\"63.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Modell</text><text x=\"63.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">flach,</text><text x=\"63.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">ca. 1 mm</text><path d=\"M124,75 L130,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"142\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"201.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"201.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><text x=\"201.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Slicen</text><text x=\"201.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Pause</text><text x=\"201.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">einfügen</text><path d=\"M262,75 L268,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"280\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"339.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"339.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><text x=\"339.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Drucken</text><text x=\"339.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">bis zur</text><text x=\"339.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Pause</text><path d=\"M400,75 L406,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"418\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"477.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"477.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><text x=\"477.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Stoff</text><text x=\"477.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">auflegen,</text><text x=\"477.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Magnete</text><path d=\"M538,75 L544,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"556\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"615.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"615.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><text x=\"615.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Weiter</text><text x=\"615.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">drucken</text><text x=\"615.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">fortsetzen</text><path d=\"M676,75 L682,75\" stroke=\"#087d84\" stroke-width=\"2\" marker-end=\"url(#ab-p)\"/><rect x=\"694\" y=\"20\" width=\"118\" height=\"110\" rx=\"6\" fill=\"#f5f8f8\" stroke=\"#087d84\" stroke-width=\"1.5\"/><circle cx=\"753.0\" cy=\"20\" r=\"11\" fill=\"#087d84\"/><text x=\"753.0\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><text x=\"753.0\" y=\"62\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">Entnehmen</text><text x=\"753.0\" y=\"86\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">Stoff</text><text x=\"753.0\" y=\"104\" font-size=\"14\" fill=\"#646464\" text-anchor=\"middle\">ablösen</text></svg></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "prinzip",
+    "accordion": false,
+    "title": "Was im Druck passiert",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Was im Druck passiert</h2><div class=\"diagram\" tabindex=\"0\" role=\"region\" aria-label=\"Querschnitt, bei Bedarf seitlich verschiebbar\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 170\" role=\"img\" aria-labelledby=\"qs-t qs-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"qs-t\">Stoff zwischen den Schichten</title><desc id=\"qs-d\">Querschnitt durch einen Druck von 1 mm Höhe: unten drei Schichten bis 0,6 mm, dann die Pause, in der der Stoff aufgelegt wird, darüber die restlichen Schichten. Der Kunststoff dringt durch die Maschen und schliesst den Stoff ein.</desc>\n<rect x=\"120\" y=\"100\" width=\"400\" height=\"36\" fill=\"#087d84\"/><text x=\"530\" y=\"124\" font-size=\"14\">Schichten 1 bis 3, bis 0,6 mm</text>\n<path d=\"M60,94 q20,-8 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0\" fill=\"none\" stroke=\"#9b7fb3\" stroke-width=\"4\"/><text x=\"530\" y=\"90\" font-size=\"14\" fill=\"#6e4f8a\">Stoff, in der Pause aufgelegt</text>\n<rect x=\"120\" y=\"52\" width=\"400\" height=\"34\" fill=\"#0a9aa3\"/><text x=\"530\" y=\"66\" font-size=\"14\">weitere Schichten</text>\n<path d=\"M100,52 v84\" stroke=\"#888\" stroke-width=\"1\"/><path d=\"M95,52 h10 M95,136 h10\" stroke=\"#888\"/><text x=\"20\" y=\"98\" font-size=\"14\" fill=\"#555\">ca. 1 mm</text>\n<text x=\"120\" y=\"160\" font-size=\"13\" fill=\"#555\">Der Kunststoff dringt durch die Maschen und schliesst den Stoff ein.</text></svg></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "material",
+    "accordion": false,
+    "title": "Stoffe und Material",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Stoffe und Material</h2><ul><li><strong>Gut geeignet:</strong> Tüll, Netzstoff (Mesh), dünner Elasthan-Stoff (Lycra). Offene Maschen lassen den Kunststoff durch.</li><li><strong>Weniger geeignet:</strong> dichte oder dicke Stoffe. Der Kunststoff haftet nur oberflächlich, und die Düse kann am Stoff hängen bleiben.</li><li><strong>Filament:</strong> PLA, wie beim normalen Druck.</li></ul><p>Vorgedehnter Lycra zieht sich nach dem Druck zusammen und wölbt die Fläche. Mehr dazu in der <a href=\"/ideen\">Ideensammlung</a>.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "modell",
+  "label": "Modell",
+  "title": "Modell",
+  "sections": [
+   {
+    "id": "kopf-modell",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Modell</h1><p>Für den Druck auf Textil genügen flache Formen. Wichtig ist die Höhe: etwa 1 mm, damit unter und über dem Stoff je einige Schichten liegen.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "tinkercad",
+    "accordion": false,
+    "title": "Mit Tinkercad",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Mit Tinkercad</h2><ol><li>In <a href=\"https://www.tinkercad.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Tinkercad</a> einen einfachen Körper von 1 mm Höhe und etwa 40 mm Durchmesser erstellen. Einstieg: <a href=\"https://www.tinkercad.com/learn\" rel=\"noopener noreferrer\" target=\"_blank\">Tutorials</a> und die Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html#modellieren\" rel=\"noopener noreferrer\" target=\"_blank\">Modellieren</a>.</li><li>Über «Exportieren» als <strong>.STL</strong> speichern.</li></ol><figure class=\"schritt\"><img src=\"/assets/tinkercad-koerper.jpg\" alt=\"Tinkercad: flacher blauer Achteck-Körper, die Höhe ist auf 1.00 mm eingestellt\" width=\"900\" height=\"432\" loading=\"lazy\"><figcaption>Flacher Körper in Tinkercad, Höhe 1 mm. Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "svg",
+    "accordion": false,
+    "title": "Direkt aus einer Zeichnung",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Direkt aus einer Zeichnung</h2><p>Eine SVG-Datei lässt sich direkt in PrusaSlicer importieren, die Höhe wird dort festgelegt. Muster lassen sich so zum Beispiel im <a href=\"https://vektortool.app/\" rel=\"noopener noreferrer\" target=\"_blank\">Vektortool</a> zeichnen.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "muster",
+    "accordion": false,
+    "title": "Fertige Muster",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Fertige Muster</h2><p><a href=\"https://www.printables.com/model/650479-tessellation-patterns-on-fabric\" rel=\"noopener noreferrer\" target=\"_blank\">Tessellation Patterns on Fabric</a> auf Printables: fertige STL-Dateien mit Kachelmustern für den Druck auf Stoff.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "slicen",
+  "label": "Slicen",
+  "title": "Slicen",
+  "sections": [
+   {
+    "id": "kopf-slicen",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Slicen</h1><p>Damit der Stoff eingelegt werden kann, braucht der Druck eine Pause. Sie wird in PrusaSlicer eingefügt. Installation und Druckerwahl stehen auf der Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html#slicen\" rel=\"noopener noreferrer\" target=\"_blank\">Slicen</a> der 3D-Druck-Anleitung.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "pause",
+    "accordion": false,
+    "title": "Pause einfügen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Pause einfügen</h2><ol><li>STL-Datei auf die Druckplatte ziehen oder über «Datei» › «Importieren» öffnen. Bei Bedarf die Grösse anpassen.</li><li>Prüfen: Drucker der eigenen Hochschule, Filament PLA.</li><li>«Jetzt slicen» klicken. PrusaSlicer wechselt in die Vorschau.</li><li>Den rechten Schichtregler etwa in die Mitte ziehen, zum Beispiel auf 0,60 mm (Schicht 3).</li><li>Mit einem Rechtsklick auf das Plus beim Regler «Pause hinzufügen» wählen.</li><li>«G-Code exportieren» und auf den USB-Stick speichern.</li></ol><figure class=\"schritt\"><img src=\"/assets/slicer-pause.jpg\" alt=\"PrusaSlicer-Vorschau mit einem roten Achteck auf der Druckplatte, rechts der Schichtregler bei 0.60 mm, im Kontextmenü ist «Pause hinzufügen» markiert\" width=\"900\" height=\"807\" loading=\"lazy\"><figcaption>Rechtsklick am Schichtregler: «Pause hinzufügen». Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "infill",
+    "accordion": false,
+    "title": "Muster mit Füllung und Umfängen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Muster mit Füllung und Umfängen</h2><p>Aus derselben STL-Datei entstehen sehr unterschiedliche Flächen, je nachdem, wie Füllung und Umfänge eingestellt sind. Die Einstellungen stehen unter «Druckeinstellungen» › «Schichten und Umfänge».</p><ul><li>Damit die Füllung sichtbar wird, oben und unten 0 massive Schichten einstellen (horizontale Konturhüllen).</li><li>Füllmuster und Fülldichte verändern das Aussehen, zum Beispiel Dreiecke oder konzentrische Linien mit 15 %.</li><li>Die Anzahl Umfänge bestimmt, ob die Form einen festen Rand hat.</li></ul><figure class=\"schritt\"><img src=\"/assets/konturhuellen.png\" alt=\"PrusaSlicer, Horizontale Konturhüllen: massive Schichten oben 0 und unten 0\" width=\"1280\" height=\"235\" loading=\"lazy\"><figcaption>Massive Schichten oben und unten auf 0. Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure><figure class=\"schritt\"><img src=\"/assets/infill-varianten.jpg\" alt=\"Blaue Dreiecke auf Tüll in vier Varianten: voll gefüllt, nur Umfang, Dreiecksfüllung, konzentrische Füllung, darunter die Parameter\" width=\"800\" height=\"949\" loading=\"lazy\"><figcaption>Vier Varianten aus derselben Datei, darunter die Einstellungen. Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "drucken",
+  "label": "Drucken",
+  "title": "Drucken",
+  "sections": [
+   {
+    "id": "kopf-drucken",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Drucken</h1><p>Ablauf am Drucker. Allgemeines zum Drucken steht auf der Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html#drucken\" rel=\"noopener noreferrer\" target=\"_blank\">Drucken</a> der 3D-Druck-Anleitung.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "vorbereiten",
+    "accordion": true,
+    "title": "1. Vorbereiten und starten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Drucker einschalten, Druckplatte kontrollieren, Filament prüfen.</li><li>Stoff vorbereiten: ein Stück, das rundum einige Zentimeter grösser ist als der Druck. Bei Lycra den Stoff vorher dehnen, falls sich die Fläche wölben soll.</li><li>USB-Stick einstecken, Datei wählen, Druck starten.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "pause-druck",
+    "accordion": true,
+    "title": "2. Stoff einlegen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Der Drucker hält nach den ersten Schichten an und fährt den Druckkopf zur Seite.</li><li>Stoff glatt und straff über den Druck legen.</li><li>Mit Neodym-Magneten am Rand der Druckplatte sichern. Die Magnete ausserhalb der Druckfläche setzen, damit die Düse nicht anstösst.</li><li>Am Drucker den Druck fortsetzen.</li></ol><figure class=\"schritt\"><img src=\"/assets/druck-mit-magneten.jpg\" alt=\"Prusa MINI+ druckt rote Rautenmuster auf hellen Tüll, der Stoff ist mit Magneten auf der Platte gehalten, am Display der Hinweis Filament nach Gebrauch entladen\" width=\"1000\" height=\"670\" loading=\"lazy\"><figcaption>Tüll mit Magneten gesichert, der Druck läuft weiter. Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "entnehmen",
+    "accordion": true,
+    "title": "3. Entnehmen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Druck fertig laufen und das Bett abkühlen lassen.</li><li>Magnete entfernen.</li><li>Druckblech abnehmen und leicht biegen, dann den Stoff mit dem Druck vorsichtig ablösen.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "aufraeumen",
+    "accordion": true,
+    "title": "4. Aufräumen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<ol><li>Magnete zurücklegen, Stoffreste entsorgen.</li><li>Filament nach Gebrauch entladen, wenn es am Drucker so angeschrieben ist.</li></ol>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "tipps",
+    "accordion": false,
+    "title": "Wenn es nicht klappt",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Wenn es nicht klappt</h2><ul><li><strong>Stoff löst sich vom Druck:</strong> Maschen zu dicht oder zu wenige Schichten über dem Stoff. Offeneren Stoff verwenden oder das Modell etwas höher machen.</li><li><strong>Düse bleibt am Stoff hängen:</strong> Stoff zu dick oder nicht straff. Dünneren Stoff verwenden und straffer befestigen.</li><li><strong>Fläche wellt sich:</strong> Stoff war beim Einlegen nicht glatt.</li></ul>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ideen",
+  "label": "Ideensammlung",
+  "title": "Ideensammlung 3D-Druck auf Textil",
+  "sections": [
+   {
+    "id": "kopf-ideen",
+    "accordion": false,
+    "title": "",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Ideensammlung</h1><p>Geordnet nach Themenfeldern des Lehrplans 21 (TTG), dazu eine Gruppe für Muster und Versuche. Der Steckbrief nennt Zyklus, Aufwand am Drucker und das Prinzip. Ein Teil der Beispiele ist mit TPU gedruckt, einem biegsamen Filament. Mit PLA gelingen sie ebenfalls, werden aber steifer.</p><p>Die Ideen sind Ausgangspunkte für den eigenen Gestaltungsprozess. Die Links unter den Bildern führen zur Dokumentation des jeweiligen Projekts.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "prinzipien",
+    "accordion": false,
+    "title": "Was der Druck auf Textil gut kann",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Was der Druck auf Textil gut kann</h2><div class=\"prinzipien\"><div class=\"prinzip\" id=\"p-kacheln\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-kacheln-g-t p-kacheln-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-kacheln-g-t\">Kacheln mit Abstand</title><desc id=\"p-kacheln-g-d\">Oben flach: Kacheln mit schmalen Abständen auf einem Stoffstreifen. Unten derselbe Streifen, an den Abständen geknickt.</desc><rect x=\"30\" y=\"34\" width=\"34\" height=\"10\" fill=\"#087d84\"/><rect x=\"72\" y=\"34\" width=\"34\" height=\"10\" fill=\"#087d84\"/><rect x=\"114\" y=\"34\" width=\"34\" height=\"10\" fill=\"#087d84\"/><rect x=\"156\" y=\"34\" width=\"34\" height=\"10\" fill=\"#087d84\"/><rect x=\"198\" y=\"34\" width=\"34\" height=\"10\" fill=\"#087d84\"/><path d=\"M24,46 h214\" stroke=\"#9b7fb3\" stroke-width=\"3\"/><path d=\"M40,120 l34,-22 l8,0 l34,22 l8,0 l34,-22 l8,0 l34,22\" fill=\"none\" stroke=\"#087d84\" stroke-width=\"9\" stroke-linejoin=\"round\"/><text x=\"30\" y=\"140\" font-size=\"12\">im Abstand bleibt der Stoff beweglich</text></svg><div class=\"text\"><h3>Kacheln mit Abstand</h3><p>Feste Kacheln mit schmalen Fugen ergeben eine Fläche, die sich biegen und falten lässt. Die Breite der Fuge bestimmt, wie weit sie sich knickt.</p></div></div><div class=\"prinzip\" id=\"p-vordehnen\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-vordehnen-g-t p-vordehnen-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-vordehnen-g-t\">Vordehnen</title><desc id=\"p-vordehnen-g-d\">Links ein gedehnter Stoff mit Pfeilen nach aussen, rechts nach dem Loslassen eine gewölbte Kuppel.</desc><path d=\"M20,60 h100\" stroke=\"#9b7fb3\" stroke-width=\"3\"/><rect x=\"45\" y=\"50\" width=\"50\" height=\"8\" fill=\"#087d84\"/><path d=\"M28,72 l-12,0 m4,-4 l-4,4 l4,4 M112,72 l12,0 m-4,-4 l4,4 l-4,4\" stroke=\"#555\" stroke-width=\"2\" fill=\"none\"/><text x=\"34\" y=\"96\" font-size=\"12\">gedehnt bedruckt</text><path d=\"M150,100 q50,-70 100,0\" fill=\"none\" stroke=\"#9b7fb3\" stroke-width=\"3\"/><path d=\"M168,80 q32,-40 64,0\" fill=\"none\" stroke=\"#087d84\" stroke-width=\"7\"/><text x=\"160\" y=\"124\" font-size=\"12\">losgelassen: Wölbung</text></svg><div class=\"text\"><h3>Vordehnen</h3><p>Wird elastischer Stoff (Lycra) gedehnt eingespannt und bedruckt, zieht er sich nach dem Lösen zusammen. Der Druck hält dagegen, die Fläche wölbt sich zur Schale oder rollt sich ein.</p></div></div><div class=\"prinzip\" id=\"p-fuellung\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 150\" role=\"img\" aria-labelledby=\"p-fuellung-g-t p-fuellung-g-d\" font-family=\"Lato, Arial, sans-serif\" fill=\"#222\"><title id=\"p-fuellung-g-t\">Füllung als Muster</title><desc id=\"p-fuellung-g-d\">Ein Dreieck, nur mit Umfang und sichtbarer Dreiecksfüllung, ohne massive Schichten oben und unten.</desc><path d=\"M130,20 L220,130 L40,130 Z\" fill=\"none\" stroke=\"#087d84\" stroke-width=\"5\"/><g stroke=\"#087d84\" stroke-width=\"2\"><path d=\"M70,110 h120 M85,92 h90 M100,74 h60 M70,110 L130,38 M190,110 L130,38 M100,130 L145,74 M160,130 L115,74\"/></g></svg><div class=\"text\"><h3>Füllung als Muster</h3><p>Ohne massive Schichten oben und unten bleibt die Füllung sichtbar. Füllmuster, Dichte und Umfänge werden so zum Gestaltungsmittel.</p></div></div></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-mode",
+    "accordion": false,
+    "title": "Mode/Bekleidung",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Mode/Bekleidung</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-halskette.jpg\" alt=\"Zwei Halsketten aus schwarzem Kunststoff auf Tüll: ein Chevron-Muster und ein Knotenmuster\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://www.instructables.com/How-to-3D-Print-on-Tulle-Fabric/\" rel=\"noopener noreferrer\" target=\"_blank\">Penolopy Bulnick</a>, Instructables, <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"noopener noreferrer\" target=\"_blank\">CC BY-NC-SA 4.0</a></p><div class=\"text\"><h3>Halsketten und Schmuck</h3><p>Ornament auf Tüll drucken, ausschneiden und an eine Kette hängen. Der Tüll bleibt zwischen den Linien fast unsichtbar.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: kurz</li><li>Prinzip: Füllung als Muster</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-ornament.jpg\" alt=\"Schwarze Sternornamente aus Kunststoff auf Tüll, gespannt in einem Holz-Stickrahmen\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2026/ipek-kuscu/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Ipek Kuscu</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Ornamente und Applikationen</h3><p>Muster aus der eigenen Kultur oder Geschichte auf Tüll drucken und als Applikation auf Kleidung oder Taschen nähen. Im Stickrahmen wirkt es wie ein Bild.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-schuppen.jpg\" alt=\"Dichtes Feld beiger Schuppen aus Kunststoff auf schimmerndem Organza\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2025/gabriella-arnadottir/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Gabríella Kamí Árnadóttir</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Schuppen für Kostüme</h3><p>Viele kleine Schuppen auf Organza oder Tüll ergeben eine bewegliche Fläche für Drachen, Fische oder Ritterrüstungen im Theater.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-bau",
+    "accordion": false,
+    "title": "Bau/Wohnbereich",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Bau/Wohnbereich</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-schale.jpg\" alt=\"Blütenornament auf hautfarbenem Lycra, das sich zu einer flachen Schale gewölbt hat\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2026/carlotta-premazzi/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Carlotta Premazzi</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Schale aus vorgedehntem Stoff</h3><p>Lycra gedehnt einspannen, ein Ornament aufdrucken, lösen: die Fläche wölbt sich von selbst zur Schale. Im Bild mit TPU gedruckt, mit PLA wird sie steifer.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Vordehnen</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-faltflaeche.jpg\" alt=\"Graue quadratische Kacheln auf Lycra, die Fläche hat sich plastisch zwischen den Kacheln zusammengezogen\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2023/ieva-dautartaite/assignments/week07/\" rel=\"noopener noreferrer\" target=\"_blank\">Ieva Marija Dautartaitė</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Faltfläche</h3><p>Quadratische Kacheln auf vorgedehnten Stoff drucken: beim Lösen faltet sich die Fläche zwischen den Kacheln. Ausgangspunkt für Leuchten, Raumteiler oder Wandobjekte.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand, Vordehnen</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "feld-experimente",
+    "accordion": false,
+    "title": "Muster und Versuche",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Muster und Versuche</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-truchet.jpg\" alt=\"Pinke Truchet-Kacheln, gedruckt auf weinroten Samt und auf Lycra\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2020/loes.bogers/assignments/week08/\" rel=\"noopener noreferrer\" target=\"_blank\">Loes Bogers</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Musterkacheln</h3><p>Truchet-Kacheln oder andere Rapportmuster auf verschiedene Stoffe drucken und vergleichen. Mit wenigen Grundkacheln entstehen viele Muster.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Füllung als Muster</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-musterkarte.jpg\" alt=\"Zwei verzerrte Rastergitter auf rosa Organza, eines transparent, eines neonpink\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2020/loes.bogers/assignments/week08/\" rel=\"noopener noreferrer\" target=\"_blank\">Loes Bogers</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Materialversuche</h3><p>Dasselbe Muster auf verschiedenen Stoffen und mit verschiedenen Farben drucken und die Wirkung vergleichen. Eine Musterkarte hilft bei der Wahl für das eigene Projekt.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Füllung als Muster</li></ul></div></article></div>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "weiter",
+    "accordion": false,
+    "title": "Weitere Quellen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Weitere Quellen</h2><p>Anleitungen und Projekte siehe <a href=\"/fragen#links\">Offene Fragen und Links</a>.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "fragen",
+  "label": "Offene Fragen und Links",
+  "title": "Offene Fragen und Links",
+  "sections": [
+   {
+    "id": "fragen",
+    "accordion": false,
+    "title": "Offene Fragen",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Offene Fragen und Links</h1><p>Zum Drucken auf Textil gibt es noch viel zu entdecken. Mögliche Fragen für eigene Versuche:</p><ul><li>Welche Druckeinstellungen eignen sich am besten?</li><li>Welche Stoffe eignen sich?</li><li>Welche Anwendungen gibt es für die entstandenen Flächen?</li><li>Lassen sich so Siebdrucksiebe herstellen?</li><li>Welche Origami-Strukturen oder Objekte lassen sich mit dem Verfahren umsetzen?</li></ul>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "links",
+    "accordion": false,
+    "title": "Links",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Links</h2><ul><li><a href=\"https://blog.prusa3d.com/de/wie-man-t-shirts-bedruckt_55588/\" rel=\"noopener noreferrer\" target=\"_blank\">Prusa: Wie man T-Shirts bedruckt</a> (deutsch): direkter Druck auf Textil mit Druckpause und Einstellungen</li><li><a href=\"https://www.instructables.com/How-to-3D-Print-on-Tulle-Fabric/\" rel=\"noopener noreferrer\" target=\"_blank\">How to 3D Print on Tulle Fabric</a> (englisch): Schmuck auf Tüll, Schritt für Schritt</li><li><a href=\"https://class.textile-academy.org/2023/ieva-dautartaite/assignments/week07/\" rel=\"noopener noreferrer\" target=\"_blank\">Ieva Marija Dautartaitė, Fabricademy</a> (englisch): Vergleich PLA und TPU auf Lycra und Tüll, Origami-Muster</li><li><a href=\"https://class.textile-academy.org/2026/carlotta-premazzi/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Carlotta Premazzi, Fabricademy</a> (englisch): TPU auf vorgedehnter Lycra, gelungene und missglückte Versuche</li><li><a href=\"https://class.textile-academy.org/2026/claire-jouanchicot/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Claire Jouanchicot, Fabricademy</a> (englisch): Pause in PrusaSlicer, Tüll mit Klammern gespannt, Moiré mit zwei Lagen</li><li><a href=\"https://fabacademy.org/2020/labs/kamplintfort/students/kais-alila/assignments/week18\" rel=\"noopener noreferrer\" target=\"_blank\">Kais Alila, Fab Academy</a> (englisch): Drachenschuppen auf Tüll, Stopp nach zwei Schichten</li><li><a href=\"https://www.printables.com/model/650479-tessellation-patterns-on-fabric\" rel=\"noopener noreferrer\" target=\"_blank\">Tessellation Patterns on Fabric</a> (Printables): fertige Kachelmuster als STL</li><li><a href=\"https://kaizen3dprints.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Kaizen 3D Prints</a></li></ul>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "impressum",
+  "label": "Impressum",
+  "title": "Impressum",
+  "sections": [
+   {
+    "id": "impressum",
+    "accordion": false,
+    "title": "Impressum",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h1>Impressum</h1><p>Grundlage ist die Dokumentation von Lea Brücker aus ihrer Lehrassistenz im HS23. Sie hat die Grundlagenarbeit geleistet, die diese Seite erst möglich gemacht hat. Fragen und Rückmeldungen an <a href=\"mailto:lukas.jordi@phbern.ch\">lukas.jordi@phbern.ch</a> (PHBern) oder <a href=\"mailto:lukas.jordi@phlu.ch\">lukas.jordi@phlu.ch</a> (PH Luzern).</p><p>Lukas Jordi, in Co-Autorschaft mit Claude (KI-Assistent von Anthropic). Stand Oktober 2026.</p><p><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"license noopener noreferrer\" target=\"_blank\"><img src=\"/assets/lizenz-cc-by-nc-sa.png\" alt=\"Lizenz Creative Commons BY-NC-SA 4.0\" width=\"134\" height=\"47\"></a></p><p>Die Seite steht unter der Lizenz Creative Commons BY-NC-SA 4.0. Ausgenommen sind Fotos Dritter, ihre Lizenz steht jeweils unter dem Bild.</p>"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

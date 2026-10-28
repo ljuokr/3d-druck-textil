@@ -56,6 +56,23 @@
     ]
    },
    {
+    "id": "erste-versuche",
+    "accordion": false,
+    "title": "Erste Versuche",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Erste Versuche</h2><p>Zum Kennenlernen genügt ein kleiner Versuch, ohne grosses Projekt:</p><ul><li>Eine flache Scheibe von etwa 40 mm Durchmesser und 1 mm Höhe auf ein Stück Tüll drucken, wie unter <a href=\"/modell\">Modell</a> beschrieben.</li><li>Danach am Stoff ziehen und biegen: Wie fest hält der Kunststoff, wie beweglich bleibt der Stoff?</li><li>Dasselbe auf einem zweiten Stoff wiederholen und vergleichen.</li></ul>"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "prinzip",
     "accordion": false,
     "title": "Was im Druck passiert",
@@ -84,6 +101,23 @@
        {
         "type": "html",
         "html": "<h2>Stoffe und Material</h2><ul><li><strong>Gut geeignet:</strong> Tüll, Netzstoff (Mesh), Chiffon, dünner Elasthan-Stoff (Lycra). Offene Maschen lassen den Kunststoff durch, die Schichten verbinden sich durch den Stoff hindurch.</li><li><strong>Weniger geeignet:</strong> dichter gewobene oder dicke Stoffe, zum Beispiel Cretonne. Die Schichten verbinden sich schlecht und lösen sich wieder, die Düse kann am Stoff hängen bleiben.</li><li><strong>Direkt auf den Stoff drucken</strong>, ohne Pause, haftet schlecht. Darum liegt der Stoff zwischen den Schichten.</li><li><strong>Filament:</strong> PLA, wie beim normalen Druck. An der PH Luzern gibt es zusätzlich TPU, ein biegsames Filament.</li></ul><p>Vorgedehntes Lycra zieht sich nach dem Druck zusammen und wölbt die Fläche. Mehr dazu in der <a href=\"/ideen\">Ideensammlung</a>.</p><p>Die Angaben zu den Stoffen stammen aus der <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation von Lea Brücker</a> (Lehrassistenz HS23).</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "kontext",
+    "accordion": false,
+    "title": "Kontext und Orientierung",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>Kontext und Orientierung</h2><ul><li><strong>Im Alltag entdecken:</strong> Kunststoff auf Stoff findet sich bei Sportkleidung, Schuhen, Taschen und Kostümen. Wo verstärkt, schützt oder schmückt er? Auch im Cosplay werden gedruckte Teile mit Stoff kombiniert.</li><li><strong>Woher es kommt:</strong> Seit den 2010er-Jahren zeigen Modedesignerinnen und -designer gedruckte Kleidung auf Laufstegen. Im Unterricht verbindet das Verfahren Technik mit textilen Techniken wie Nähen, Sticken und Applizieren.</li><li><strong>Vergleichen:</strong> eine gedruckte Applikation mit einer gestickten oder aufgenähten vergleichen. Was hält besser, was wirkt wie?</li><li><strong>Sinnvoll einsetzen:</strong> Kunststoff und Stoff lassen sich kaum mehr trennen. Darum überlegen, wie lange das Stück gebraucht wird, und nur kalt von Hand waschen.</li></ul><p class=\"lp21\">Lehrplan 21: TTG.3.A.2 (Erfindungen und Entwicklungen), TTG.3.A.1 (Bedeutung und symbolischer Gehalt), TTG.3.B.2 (Herstellung und Verwendung)</p>"
        }
       ]
      }
@@ -366,7 +400,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Ideensammlung</h1><p>Geordnet nach Themenfeldern des Lehrplans 21 (TTG), dazu eine Gruppe für Muster und Versuche. Der Steckbrief nennt Zyklus, ungefähren Aufwand und das Prinzip. Aufwand «kurz»: ein einfaches Teil ist in einer Doppellektion gestaltet und hergestellt. «Mittel»: braucht mehrere Doppellektionen, mehrere Teile oder Versuche. Ein Teil der Beispiele ist mit TPU gedruckt, einem biegsamen Filament, das es an der PH Luzern gibt. Mit PLA gelingen sie ebenfalls, werden aber steifer.</p><p>Die Ideen sind Ausgangspunkte für den eigenen Gestaltungsprozess. Die Links unter den Bildern führen zur Dokumentation des jeweiligen Projekts.</p>"
+        "html": "<h1>Ideensammlung</h1><p>Geordnet nach Themenfeldern des Lehrplans 21 (TTG), dazu eine Gruppe für Muster und Versuche. Der Steckbrief nennt Zyklus, ungefähren Aufwand und das Prinzip. Aufwand «kurz»: ein einfaches Teil ist in einer Doppellektion gestaltet und hergestellt. «Mittel»: braucht mehrere Doppellektionen, mehrere Teile oder Versuche. Ein Teil der Beispiele ist mit TPU gedruckt, einem biegsamen Filament, das es an der PH Luzern gibt. Mit PLA gelingen sie ebenfalls, werden aber steifer.</p><p>Die Ideen sind Ausgangspunkte für den eigenen Gestaltungsprozess. Die Links unter den Bildern führen zur Dokumentation des jeweiligen Projekts.</p><p><strong>Grundsatz:</strong> Der 3D-Drucker ergänzt den Gestaltungsunterricht, er ist kein eigenes Kursthema. Im Zentrum steht die gestalterische Aufgabe. Die Maschine kommt dort zum Einsatz, wo sie ihr dient, oft zusammen mit Handarbeit und anderen Materialien.</p>"
        }
       ]
      }
@@ -400,7 +434,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Mode/Bekleidung</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-ornament.jpg\" alt=\"Schwarze Sternornamente aus Kunststoff auf Tüll, gespannt in einem Holz-Stickrahmen\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2026/ipek-kuscu/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Ipek Kuscu</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Ornamente, Schmuck und Applikationen</h3><p>Muster aus der eigenen Kultur oder Geschichte auf Tüll drucken. Ausgeschnitten und an eine Kette gehängt wird daraus Schmuck, aufgenäht eine Applikation auf Kleidung oder Taschen, im Stickrahmen ein Bild. Der Tüll bleibt zwischen den Linien fast unsichtbar. PLA wird ab etwa 55 °C weich: nur kalt von Hand waschen, nicht in den Tumbler, nicht bügeln.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Kacheln mit Abstand, Füllung als Muster</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-schuppen.jpg\" alt=\"Dichtes Feld beiger Schuppen aus Kunststoff auf schimmerndem Organza\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2025/gabriella-arnadottir/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Gabríella Kamí Árnadóttir</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Schuppen für Kostüme</h3><p>Viele kleine Schuppen auf Organza oder Tüll ergeben eine bewegliche Fläche für Drachen, Fische oder Ritterrüstungen im Theater.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand</li></ul></div></article></div>"
+        "html": "<h2>Mode/Bekleidung</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-ornament.jpg\" alt=\"Schwarze Sternornamente aus Kunststoff auf Tüll, gespannt in einem Holz-Stickrahmen\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2026/ipek-kuscu/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Ipek Kuscu</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Ornamente, Schmuck und Applikationen</h3><p>Muster aus der eigenen Kultur oder Geschichte auf Tüll drucken. Ausgeschnitten und an eine Kette gehängt wird daraus Schmuck, aufgenäht eine Applikation auf Kleidung oder Taschen, im Stickrahmen ein Bild. Der Tüll bleibt zwischen den Linien fast unsichtbar. PLA wird ab etwa 55 °C weich: nur kalt von Hand waschen, nicht in den Tumbler, nicht bügeln.</p><p><strong>Aufgabe:</strong> Ein Muster entwerfen, das etwas über die eigene Familie, den Ort oder eine Tradition erzählt, und es als Schmuck oder Applikation tragen.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Kacheln mit Abstand, Füllung als Muster</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-schuppen.jpg\" alt=\"Dichtes Feld beiger Schuppen aus Kunststoff auf schimmerndem Organza\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2025/gabriella-arnadottir/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Gabríella Kamí Árnadóttir</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Schuppen für Kostüme</h3><p>Viele kleine Schuppen auf Organza oder Tüll ergeben eine bewegliche Fläche für Drachen, Fische oder Ritterrüstungen im Theater.</p><p><strong>Aufgabe:</strong> Für ein Kostüm eine Oberfläche entwickeln, die sich bewegt wie Haut oder Rüstung.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand</li></ul></div></article></div>"
        }
       ]
      }
@@ -417,7 +451,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Bau/Wohnbereich</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-schale.jpg\" alt=\"Blütenornament auf hautfarbenem Lycra, das sich zu einer flachen Schale gewölbt hat\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2026/carlotta-premazzi/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Carlotta Premazzi</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Schale aus vorgedehntem Stoff</h3><p>Lycra gedehnt einspannen, ein Ornament aufdrucken, lösen: die Fläche wölbt sich von selbst zur Schale. Im Bild mit TPU gedruckt, mit PLA wird sie steifer.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Vordehnen</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-faltflaeche.jpg\" alt=\"Graue quadratische Kacheln auf Lycra, die Fläche hat sich plastisch zwischen den Kacheln zusammengezogen\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2023/ieva-dautartaite/assignments/week07/\" rel=\"noopener noreferrer\" target=\"_blank\">Ieva Marija Dautartaitė</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Faltfläche</h3><p>Quadratische Kacheln auf vorgedehnten Stoff drucken: beim Lösen faltet sich die Fläche zwischen den Kacheln. Ausgangspunkt für Leuchten, Raumteiler oder Wandobjekte.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand, Vordehnen</li></ul></div></article></div>"
+        "html": "<h2>Bau/Wohnbereich</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-schale.jpg\" alt=\"Blütenornament auf hautfarbenem Lycra, das sich zu einer flachen Schale gewölbt hat\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2026/carlotta-premazzi/assignments/week06/\" rel=\"noopener noreferrer\" target=\"_blank\">Carlotta Premazzi</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Schale aus vorgedehntem Stoff</h3><p>Lycra gedehnt einspannen, ein Ornament aufdrucken, lösen: die Fläche wölbt sich von selbst zur Schale. Im Bild mit TPU gedruckt, mit PLA wird sie steifer.</p><p><strong>Aufgabe:</strong> Herausfinden, wie stark sich ein Stoff wölbt, und daraus ein Gefäss für Kleinigkeiten gestalten.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Vordehnen</li></ul></div></article><article class=\"idee\"><img src=\"/assets/idee-faltflaeche.jpg\" alt=\"Graue quadratische Kacheln auf Lycra, die Fläche hat sich plastisch zwischen den Kacheln zusammengezogen\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2023/ieva-dautartaite/assignments/week07/\" rel=\"noopener noreferrer\" target=\"_blank\">Ieva Marija Dautartaitė</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Faltfläche</h3><p>Quadratische Kacheln auf vorgedehnten Stoff drucken: beim Lösen faltet sich die Fläche zwischen den Kacheln. Ausgangspunkt für Leuchten, Raumteiler oder Wandobjekte.</p><p><strong>Aufgabe:</strong> Eine Fläche entwickeln, die sich zusammenfalten lässt, zum Beispiel für eine Leuchte oder einen Raumteiler.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 3</li><li>Aufwand: mittel</li><li>Prinzip: Kacheln mit Abstand, Vordehnen</li></ul></div></article></div>"
        }
       ]
      }
@@ -434,7 +468,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Muster und Versuche</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-truchet.jpg\" alt=\"Pinke Truchet-Kacheln, gedruckt auf weinroten Samt und auf Lycra\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2020/loes.bogers/assignments/week08/\" rel=\"noopener noreferrer\" target=\"_blank\">Loes Bogers</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Musterkarte</h3><p>Truchet-Kacheln oder andere Rapportmuster auf verschiedene Stoffe und in verschiedenen Farben drucken und vergleichen. Mit wenigen Grundkacheln entstehen viele Muster. Die Musterkarte hilft bei der Wahl für das eigene Projekt.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Füllung als Muster</li></ul></div></article></div>"
+        "html": "<h2>Muster und Versuche</h2><div class=\"ideen\"><article class=\"idee\"><img src=\"/assets/idee-truchet.jpg\" alt=\"Pinke Truchet-Kacheln, gedruckt auf weinroten Samt und auf Lycra\" width=\"720\" height=\"540\" loading=\"lazy\"><p class=\"quelle\">Foto und Dokumentation: <a href=\"https://class.textile-academy.org/2020/loes.bogers/assignments/week08/\" rel=\"noopener noreferrer\" target=\"_blank\">Loes Bogers</a>, Fabricademy, <span>CC BY-NC laut Quelle</span></p><div class=\"text\"><h3>Musterkarte</h3><p>Truchet-Kacheln oder andere Rapportmuster auf verschiedene Stoffe und in verschiedenen Farben drucken und vergleichen. Mit wenigen Grundkacheln entstehen viele Muster. Die Musterkarte hilft bei der Wahl für das eigene Projekt.</p><p><strong>Aufgabe:</strong> Mit einer Musterkarte herausfinden, welches Muster sich am meisten biegt oder am besten wirkt.</p><ul class=\"steckbrief\" aria-label=\"Steckbrief\"><li>Zyklus 2 und 3</li><li>Aufwand: kurz</li><li>Prinzip: Füllung als Muster</li></ul></div></article></div>"
        }
       ]
      }

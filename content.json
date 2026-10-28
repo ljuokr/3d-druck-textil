@@ -83,7 +83,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Stoffe und Material</h2><ul><li><strong>Gut geeignet:</strong> Tüll, Netzstoff (Mesh), dünner Elasthan-Stoff (Lycra). Offene Maschen lassen den Kunststoff durch.</li><li><strong>Weniger geeignet:</strong> dichte oder dicke Stoffe. Der Kunststoff haftet nur oberflächlich, und die Düse kann am Stoff hängen bleiben.</li><li><strong>Filament:</strong> PLA, wie beim normalen Druck.</li></ul><p>Vorgedehntes Lycra zieht sich nach dem Druck zusammen und wölbt die Fläche. Mehr dazu in der <a href=\"/ideen\">Ideensammlung</a>.</p><p>Die Angaben zu den Stoffen stammen aus der <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation von Lea Brücker</a> (Lehrassistenz HS23).</p>"
+        "html": "<h2>Stoffe und Material</h2><ul><li><strong>Gut geeignet:</strong> Tüll, Netzstoff (Mesh), Chiffon, dünner Elasthan-Stoff (Lycra). Offene Maschen lassen den Kunststoff durch, die Schichten verbinden sich durch den Stoff hindurch.</li><li><strong>Weniger geeignet:</strong> dichter gewobene oder dicke Stoffe, zum Beispiel Cretonne. Die Schichten verbinden sich schlecht und lösen sich wieder, die Düse kann am Stoff hängen bleiben.</li><li><strong>Direkt auf den Stoff drucken</strong>, ohne Pause, haftet schlecht. Darum liegt der Stoff zwischen den Schichten.</li><li><strong>Filament:</strong> PLA, wie beim normalen Druck. An der PH Luzern gibt es zusätzlich TPU, ein biegsames Filament.</li></ul><p>Vorgedehntes Lycra zieht sich nach dem Druck zusammen und wölbt die Fläche. Mehr dazu in der <a href=\"/ideen\">Ideensammlung</a>.</p><p>Die Angaben zu den Stoffen stammen aus der <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation von Lea Brücker</a> (Lehrassistenz HS23).</p>"
        }
       ]
      }
@@ -216,7 +216,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Pause einfügen</h2><ol><li>STL-Datei auf die Druckplatte ziehen oder über «Datei» › «Importieren» öffnen. Bei Bedarf die Grösse anpassen.</li><li>Prüfen: Drucker der eigenen Hochschule (PHBern: «Original Prusa MINI &amp; MINI+ Input Shaper», PH Luzern: CORE One mit der Düse vom Aufkleber), Filament «Generic PLA», Druckeinstellung mit 0,20 mm Schichthöhe.</li><li>«Jetzt slicen» klicken. PrusaSlicer wechselt in die Vorschau.</li><li>Den rechten Schichtregler etwa in die Mitte ziehen, zum Beispiel auf 0,60 mm. Die Pause kommt vor dieser Schicht: Unter dem Stoff liegen dann zwei Schichten (0,40 mm).</li><li>Mit einem Rechtsklick auf das Plus beim Regler «Pause hinzufügen» wählen.</li><li>«G-Code exportieren» und auf den USB-Stick speichern.</li></ol><figure class=\"schritt\"><img src=\"/assets/slicer-pause.jpg\" alt=\"PrusaSlicer-Vorschau mit einem roten Achteck auf der Druckplatte, rechts der Schichtregler bei 0.60 mm, im Kontextmenü ist «Pause hinzufügen» markiert\" width=\"900\" height=\"807\" loading=\"lazy\"><figcaption>Rechtsklick am Schichtregler: «Pause hinzufügen». Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+        "html": "<h2>Pause einfügen</h2><ol><li>STL-Datei auf die Druckplatte ziehen oder über «Datei» › «Importieren» öffnen. Bei Bedarf die Grösse anpassen.</li><li>Prüfen: Drucker der eigenen Hochschule (PHBern: «Original Prusa MINI &amp; MINI+ Input Shaper», PH Luzern: CORE One mit der Düse vom Aufkleber), Filament «Generic PLA».</li><li>«Jetzt slicen» klicken. PrusaSlicer wechselt in die Vorschau.</li><li>Den rechten Schichtregler auf die dritte Schicht ziehen. Die Pause kommt vor dieser Schicht, der Stoff liegt dann auf zwei Schichten. Merkregel: nach der zweiten Schicht pausieren. Bei 0,20 mm Schichthöhe zeigt der Regler 0,60 mm, wie im Bild.</li><li>Mit einem Rechtsklick auf das Plus beim Regler «Pause hinzufügen» wählen.</li><li>«G-Code exportieren» und auf den USB-Stick speichern.</li></ol><figure class=\"schritt\"><img src=\"/assets/slicer-pause.jpg\" alt=\"PrusaSlicer-Vorschau mit einem roten Achteck auf der Druckplatte, rechts der Schichtregler bei 0.60 mm, im Kontextmenü ist «Pause hinzufügen» markiert\" width=\"900\" height=\"807\" loading=\"lazy\"><figcaption>Rechtsklick am Schichtregler: «Pause hinzufügen». Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
        }
       ]
      }
@@ -274,7 +274,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<ol><li>Drucker einschalten, Druckplatte kontrollieren, Filament prüfen.</li><li>Stoff vorbereiten: ein Stück, das rundum einige Zentimeter grösser ist als der Druck. Bei Lycra den Stoff vorher dehnen, falls sich die Fläche wölben soll.</li><li>USB-Stick einstecken, Datei wählen, Druck starten.</li></ol>"
+        "html": "<ol><li>Drucker einschalten, Druckplatte kontrollieren, Filament prüfen.</li><li>Stoff vorbereiten: ein Stück, das rundum einige Zentimeter grösser ist als der Druck. Bei Lycra den Stoff vorher dehnen, falls sich die Fläche wölben soll. Gedehnten Stoff festzuhalten ist schwierig: Gedruckte Clips, die über die Kante der Druckplatte greifen, halten ihn.</li><li>USB-Stick einstecken, Datei wählen, Druck starten.</li></ol>"
        }
       ]
      }
@@ -366,7 +366,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Ideensammlung</h1><p>Geordnet nach Themenfeldern des Lehrplans 21 (TTG), dazu eine Gruppe für Muster und Versuche. Der Steckbrief nennt Zyklus, Aufwand am Drucker und das Prinzip. Ein Teil der Beispiele ist mit TPU gedruckt, einem biegsamen Filament. Mit PLA gelingen sie ebenfalls, werden aber steifer.</p><p>Die Ideen sind Ausgangspunkte für den eigenen Gestaltungsprozess. Die Links unter den Bildern führen zur Dokumentation des jeweiligen Projekts.</p>"
+        "html": "<h1>Ideensammlung</h1><p>Geordnet nach Themenfeldern des Lehrplans 21 (TTG), dazu eine Gruppe für Muster und Versuche. Der Steckbrief nennt Zyklus, Aufwand am Drucker und das Prinzip. Ein Teil der Beispiele ist mit TPU gedruckt, einem biegsamen Filament, das es an der PH Luzern gibt. Mit PLA gelingen sie ebenfalls, werden aber steifer.</p><p>Die Ideen sind Ausgangspunkte für den eigenen Gestaltungsprozess. Die Links unter den Bildern führen zur Dokumentation des jeweiligen Projekts.</p>"
        }
       ]
      }
@@ -475,7 +475,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Offene Fragen und Links</h1><p>Zum Drucken auf Textil gibt es noch viel zu entdecken. Mögliche Fragen für eigene Versuche:</p><ul><li>Welche Druckeinstellungen eignen sich am besten?</li><li>Welche Stoffe eignen sich?</li><li>Welche Anwendungen gibt es für die entstandenen Flächen?</li><li>Lassen sich so Siebdrucksiebe herstellen?</li><li>Welche Origami-Strukturen oder Objekte lassen sich mit dem Verfahren umsetzen?</li></ul>"
+        "html": "<h1>Offene Fragen und Links</h1><p>Zum Drucken auf Textil gibt es noch viel zu entdecken. Mögliche Fragen für eigene Versuche:</p><ul><li>Welche Druckeinstellungen eignen sich am besten?</li><li>Welche Stoffe eignen sich?</li><li>Welche Anwendungen gibt es für die entstandenen Flächen?</li><li>Lassen sich so Siebdrucksiebe herstellen?</li><li>Welche Origami-Strukturen oder Objekte lassen sich mit dem Verfahren umsetzen?</li></ul><h2>Versuche aus der Dokumentation</h2><p>Lea Brücker hat in ihrer <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation</a> weitere Versuche beschrieben:</p><ul><li><strong>Einstieg:</strong> eine einfache Form in Tinkercad zeichnen und im Slicer nur Füllung und Umfänge verändern. So entstehen aus einem Modell ganz verschiedene Muster.</li><li><strong>Origami-Faltungen</strong> wie Miura-Ori: Die Flächen werden als flache Körper gezeichnet, die Faltlinien bleiben als Zwischenräume frei.</li><li><strong>Stoffe verbinden:</strong> mehrere Pausen setzen und zwischen zwei Stofflagen je eine Filamentschicht drucken. Mit jeder Stofflage wird das Druckbild unruhiger, die Höhe der Düse lässt sich während des Drucks nachstellen.</li><li><strong>Fäden statt Stoff:</strong> über die Druckplatte gespannte Fäden. Die Düse kann sie wegschieben, darum die Höhe der Düse deutlich anheben.</li></ul>"
        }
       ]
      }

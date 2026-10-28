@@ -83,7 +83,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Stoffe und Material</h2><ul><li><strong>Gut geeignet:</strong> Tüll, Netzstoff (Mesh), dünner Elasthan-Stoff (Lycra). Offene Maschen lassen den Kunststoff durch.</li><li><strong>Weniger geeignet:</strong> dichte oder dicke Stoffe. Der Kunststoff haftet nur oberflächlich, und die Düse kann am Stoff hängen bleiben.</li><li><strong>Filament:</strong> PLA, wie beim normalen Druck.</li></ul><p>Vorgedehntes Lycra zieht sich nach dem Druck zusammen und wölbt die Fläche. Mehr dazu in der <a href=\"/ideen\">Ideensammlung</a>.</p>"
+        "html": "<h2>Stoffe und Material</h2><ul><li><strong>Gut geeignet:</strong> Tüll, Netzstoff (Mesh), dünner Elasthan-Stoff (Lycra). Offene Maschen lassen den Kunststoff durch.</li><li><strong>Weniger geeignet:</strong> dichte oder dicke Stoffe. Der Kunststoff haftet nur oberflächlich, und die Düse kann am Stoff hängen bleiben.</li><li><strong>Filament:</strong> PLA, wie beim normalen Druck.</li></ul><p>Vorgedehntes Lycra zieht sich nach dem Druck zusammen und wölbt die Fläche. Mehr dazu in der <a href=\"/ideen\">Ideensammlung</a>.</p><p>Die Angaben zu den Stoffen stammen aus der <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation von Lea Brücker</a> (Lehrassistenz HS23).</p>"
        }
       ]
      }
@@ -182,7 +182,24 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Slicen</h1><p>Damit der Stoff eingelegt werden kann, braucht der Druck eine Pause. Sie wird in PrusaSlicer eingefügt. Installation und Druckerwahl stehen auf der Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html#slicen\" rel=\"noopener noreferrer\" target=\"_blank\">Slicen</a> der 3D-Druck-Anleitung.</p>"
+        "html": "<h1>Slicen</h1><p>Damit der Stoff eingelegt werden kann, braucht der Druck eine Pause. Sie wird in PrusaSlicer eingefügt.</p>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "installieren",
+    "accordion": false,
+    "title": "PrusaSlicer einrichten",
+    "anchor": "",
+    "gallery": false,
+    "cells": [
+     {
+      "blocks": [
+       {
+        "type": "html",
+        "html": "<h2>PrusaSlicer einrichten</h2><ol><li><a href=\"https://www.prusa3d.com/page/prusaslicer_424/\" rel=\"noopener noreferrer\" target=\"_blank\">PrusaSlicer herunterladen</a> und installieren.</li><li>Beim ersten Start öffnet sich der Konfigurationsassistent. Dort den Drucker der eigenen Hochschule auswählen:<ul><li><strong>PHBern:</strong> Original Prusa MINI &amp; MINI+ Input Shaper, Düse 0,4 mm</li><li><strong>PH Luzern:</strong> Prusa CORE One, Düse 0,4 mm und 0,6 mm (beide hinzufügen)</li></ul></li><li>Als Filament «Generic PLA» wählen.</li></ol><p>Später lassen sich Drucker über «Konfiguration» › «Konfigurationsassistent» ergänzen.</p>"
        }
       ]
      }
@@ -199,7 +216,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h2>Pause einfügen</h2><ol><li>STL-Datei auf die Druckplatte ziehen oder über «Datei» › «Importieren» öffnen. Bei Bedarf die Grösse anpassen.</li><li>Prüfen: Drucker der eigenen Hochschule, Filament «Generic PLA», Druckeinstellung mit 0,20 mm Schichthöhe.</li><li>«Jetzt slicen» klicken. PrusaSlicer wechselt in die Vorschau.</li><li>Den rechten Schichtregler etwa in die Mitte ziehen, zum Beispiel auf 0,60 mm. Die Pause kommt vor dieser Schicht: Unter dem Stoff liegen dann zwei Schichten (0,40 mm).</li><li>Mit einem Rechtsklick auf das Plus beim Regler «Pause hinzufügen» wählen.</li><li>«G-Code exportieren» und auf den USB-Stick speichern.</li></ol><figure class=\"schritt\"><img src=\"/assets/slicer-pause.jpg\" alt=\"PrusaSlicer-Vorschau mit einem roten Achteck auf der Druckplatte, rechts der Schichtregler bei 0.60 mm, im Kontextmenü ist «Pause hinzufügen» markiert\" width=\"900\" height=\"807\" loading=\"lazy\"><figcaption>Rechtsklick am Schichtregler: «Pause hinzufügen». Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
+        "html": "<h2>Pause einfügen</h2><ol><li>STL-Datei auf die Druckplatte ziehen oder über «Datei» › «Importieren» öffnen. Bei Bedarf die Grösse anpassen.</li><li>Prüfen: Drucker der eigenen Hochschule (PHBern: «Original Prusa MINI &amp; MINI+ Input Shaper», PH Luzern: CORE One mit der Düse vom Aufkleber), Filament «Generic PLA», Druckeinstellung mit 0,20 mm Schichthöhe.</li><li>«Jetzt slicen» klicken. PrusaSlicer wechselt in die Vorschau.</li><li>Den rechten Schichtregler etwa in die Mitte ziehen, zum Beispiel auf 0,60 mm. Die Pause kommt vor dieser Schicht: Unter dem Stoff liegen dann zwei Schichten (0,40 mm).</li><li>Mit einem Rechtsklick auf das Plus beim Regler «Pause hinzufügen» wählen.</li><li>«G-Code exportieren» und auf den USB-Stick speichern.</li></ol><figure class=\"schritt\"><img src=\"/assets/slicer-pause.jpg\" alt=\"PrusaSlicer-Vorschau mit einem roten Achteck auf der Druckplatte, rechts der Schichtregler bei 0.60 mm, im Kontextmenü ist «Pause hinzufügen» markiert\" width=\"900\" height=\"807\" loading=\"lazy\"><figcaption>Rechtsklick am Schichtregler: «Pause hinzufügen». Bild: Lea Brücker, Dokumentation Lehrassistenz, 2023.</figcaption></figure>"
        }
       ]
      }
@@ -240,7 +257,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Drucken</h1><p>Ablauf am Drucker. Allgemeines zum Drucken steht auf der Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html#drucken\" rel=\"noopener noreferrer\" target=\"_blank\">Drucken</a> der 3D-Druck-Anleitung.</p>"
+        "html": "<h1>Drucken</h1><p>Gedruckt wird auf der Prusa MINI+ (PHBern) oder der Prusa CORE One (PH Luzern). An der CORE One zum Einlegen des Stoffs die Tür öffnen und danach wieder schliessen. Ablauf am Drucker. Allgemeines zum Drucken steht auf der Seite <a href=\"https://ljuokr.github.io/3d-druck/3d-druck.html#drucken\" rel=\"noopener noreferrer\" target=\"_blank\">Drucken</a> der 3D-Druck-Anleitung.</p><figure class=\"schritt\"><img src=\"/assets/prusa-mini-teile.jpg\" alt=\"Prusa MINI+ mit nummerierten Teilen, unter anderem 4 Drehknopf, 6 Hauptschalter, 7 USB-Anschluss, 16 Filamentspule\" width=\"900\" height=\"678\" loading=\"lazy\"><figcaption>Prusa MINI+: (4) Drehknopf, (6) Hauptschalter, (7) USB-Anschluss, (16) Filamentspule. Bild: Handbuch Prusa MINI+, S. 12, Prusa Research a.s.</figcaption></figure>"
        }
       ]
      }
@@ -499,7 +516,7 @@
       "blocks": [
        {
         "type": "html",
-        "html": "<h1>Impressum</h1><p>Grundlage ist die <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation von Lea Brücker</a> aus ihrer Lehrassistenz im HS23. Sie hat die Grundlagenarbeit geleistet, die diese Seite erst möglich gemacht hat. Fragen und Rückmeldungen an <a href=\"mailto:lukas.jordi@phbern.ch\">lukas.jordi@phbern.ch</a> (PHBern) oder <a href=\"mailto:lukas.jordi@phlu.ch\">lukas.jordi@phlu.ch</a> (PH Luzern).</p><p>Lukas Jordi, in Co-Autorschaft mit Claude (KI-Assistent von Anthropic). Stand Oktober 2026.</p><p><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"license noopener noreferrer\" target=\"_blank\"><img src=\"/assets/lizenz-cc-by-nc-sa.png\" alt=\"Lizenz Creative Commons BY-NC-SA 4.0\" width=\"134\" height=\"47\"></a></p><p>Die Seite steht unter der Lizenz Creative Commons BY-NC-SA 4.0. Ausgenommen sind Fotos Dritter, ihre Lizenz steht jeweils unter dem Bild.</p>"
+        "html": "<h1>Impressum</h1><p>Grundlage ist die <a href=\"https://drive.google.com/file/d/1qJZXGnQHLDoV__Qm8bweZ2Ga-LbctGaJ/view?usp=drive_link\" rel=\"noopener noreferrer\" target=\"_blank\">Dokumentation von Lea Brücker</a> aus ihrer Lehrassistenz im HS23. Sie hat die Grundlagenarbeit geleistet, die diese Seite erst möglich gemacht hat. Fragen und Rückmeldungen an <a href=\"mailto:lukas.jordi@phbern.ch\">lukas.jordi@phbern.ch</a> (PHBern) oder <a href=\"mailto:lukas.jordi@phlu.ch\">lukas.jordi@phlu.ch</a> (PH Luzern).</p><p>Lukas Jordi, in Co-Autorschaft mit Claude Opus 5.5 (KI-Modell von Anthropic). Stand Oktober 2026.</p><p><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de\" rel=\"license noopener noreferrer\" target=\"_blank\"><img src=\"/assets/lizenz-cc-by-nc-sa.png\" alt=\"Lizenz Creative Commons BY-NC-SA 4.0\" width=\"134\" height=\"47\"></a></p><p>Die Seite steht unter der Lizenz Creative Commons BY-NC-SA 4.0. Ausgenommen sind Fotos Dritter, ihre Lizenz steht jeweils unter dem Bild.</p>"
        }
       ]
      }
